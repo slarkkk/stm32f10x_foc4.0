@@ -1,0 +1,1411 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                08/Jun/2017  14:34:13
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Exe\STM32F10x_Workspace.out
+#    Map file     =  
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\List\STM32F10x_Workspace.map
+#    Command line =  
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\core_cm3.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\DAC_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\DACRCTIMER_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\DACSPI_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\DACSPIAD7303_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\FrameCommunicationProtocolClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\LCDManager_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\LCDVintage_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\main.o
+#        "C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Mycode\Motor
+#        control\MC Library\lib\MC_Library_STM32F10x_dual_drive.a"
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\MCInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\MCTaskFunction.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\MCTasks.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\MCTuningClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\misc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\MotorControlProtocolClass.o
+#        "C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Mycode\Motor
+#        control\MC Library\lib\PFC_Project.a"
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\PhysicalLayerCommunication_Class.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\startup_stm32f10x_hd.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm3210e_eval_lcd.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32_eval.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_adc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_bkp.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_can.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_cec.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_crc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_dac.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_dbgmcu.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_dma.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_exti.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_flash.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_fsmc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_gpio.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_i2c.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_it.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_iwdg.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_MC_it.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_pwr.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_rcc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_rtc.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_sdio.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_spi.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_tim.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_usart.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\stm32f10x_wwdg.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\system_stm32f10x.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\Timebase.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\UIIRQHandlerClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\UITask.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\UnidirectionalFastCom_UserInterfaceClass.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\USART_PhysicalLayerCommunication_Class.o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj\UserInterfaceClass.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Exe\STM32F10x_Workspace.out
+#        --map
+#        C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\List\STM32F10x_Workspace.map
+#        --config "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0xc4b2
+  .text              ro code  0x08000130  0x1a60  LCDVintage_UserInterfaceClass.o [1]
+  .text              ro code  0x08001b90  0x10ce  UserInterfaceClass.o [1]
+  .rodata            const    0x08002c5e     0x2  FrameCommunicationProtocolClass.o [1]
+  .text              ro code  0x08002c60    0x78  MCTuningClass.o [1]
+  .text              ro code  0x08002cd8   0xb3c  stm3210e_eval_lcd.o [1]
+  .text              ro code  0x08003814   0x124  stm32_eval.o [1]
+  .text              ro code  0x08003938   0x192  SpeednTorqCtrlClass.o [3]
+  .rodata            const    0x08003aca     0x2  FrameCommunicationProtocolClass.o [1]
+  .text              ro code  0x08003acc   0x252  MCInterfaceClass.o [1]
+  .rodata            const    0x08003d1e     0x2  FrameCommunicationProtocolClass.o [1]
+  .text              ro code  0x08003d20    0xf2  PIRegulatorClass.o [3]
+  .text              ro code  0x08003e14   0x594  FluxWeakeningCtrlClass.o [3]
+  .text              ro code  0x080043a8    0x3c  BusVoltageSensorClass.o [3]
+  .text              ro code  0x080043e4    0x30  TemperatureSensorClass.o [3]
+  .text              ro code  0x08004414    0x58  Timebase.o [1]
+  .text              ro code  0x0800446c   0x1f4  stm32f10x_gpio.o [1]
+  .text              ro code  0x08004660    0x12  PID_PIRegulatorClass.o [3]
+  .text              ro code  0x08004674   0xbbc  STO_SpeednPosFdbkClass.o [3]
+  .text              ro code  0x08005230    0x5c  STO_CORDIC_SpeednPosFdbkClass.o [3]
+  .text              ro code  0x0800528c    0x3a  FeedForwardCtrlClass.o [3]
+  .text              ro code  0x080052c8   0x132  StateMachineClass.o [3]
+  .text              ro code  0x080053fc    0xb8  MotorPowerMeasurementClass.o [3]
+  .text              ro code  0x080054b4   0x1aa  RevupCtrlClass.o [3]
+  .text              ro code  0x08005660    0xc6  SpeednPosFdbkClass.o [3]
+  .text              ro code  0x08005728    0x56  ABImemcpy_unaligned.o [6]
+  .text              ro code  0x08005780   0x1a0  stm32f10x_rcc.o [1]
+  .text              ro code  0x08005920   0x11c  stm32f10x_fsmc.o [1]
+  .text              ro code  0x08005a3c    0x98  stm32f10x_exti.o [1]
+  .text              ro code  0x08005ad4    0x7c  misc.o [1]
+  .text              ro code  0x08005b50   0x3ac  MC_Math.o [3]
+  .text              ro code  0x08005efc  0x12c8  MCTasks.o [1]
+  .text              ro code  0x080071c4   0x1bc  UITask.o [1]
+  .text              ro code  0x08007380     0x6  ABImemclr.o [6]
+  .text              ro code  0x08007388   0x252  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+  .text              ro code  0x080075dc    0x70  CircleLimitationClass.o [3]
+  .text              ro code  0x0800764c    0x66  OpenLoopClass.o [3]
+  .text              ro code  0x080076b4   0xdfc  R3_HD2_PWMnCurrFdbkClass.o [3]
+  .text              ro code  0x080084b0   0x1fe  PWMnCurrFdbkClass.o [3]
+  .text              ro code  0x080086b0    0x60  Virtual_BusVoltageSensorClass.o [3]
+  .text              ro code  0x08008710    0xac  PQD_MotorPowerMeasurementClass.o [3]
+  .text              ro code  0x080087bc    0x66  Virtual_TemperatureSensorClass.o [3]
+  .text              ro code  0x08008824   0x136  DAC_UserInterfaceClass.o [1]
+  .text              ro code  0x0800895c   0x556  MotorControlProtocolClass.o [1]
+  .text              ro code  0x08008eb4   0x1cc  USART_PhysicalLayerCommunication_Class.o [1]
+  .text              ro code  0x08009080   0x2b0  FrameCommunicationProtocolClass.o [1]
+  .text              ro code  0x08009330    0x5e  ABImemset.o [6]
+  .text              ro code  0x08009390    0x18  MCIRQHandlerClass.o [3]
+  .text              ro code  0x080093a8    0x28  stm32f10x_dbgmcu.o [1]
+  .text              ro code  0x080093d0   0x204  stm32f10x_adc.o [1]
+  .text              ro code  0x080095d4   0x19c  stm32f10x_dma.o [1]
+  .text              ro code  0x08009770   0x634  stm32f10x_tim.o [1]
+  .text              ro code  0x08009da4    0xc4  stm32f10x_dac.o [1]
+  .text              ro code  0x08009e68    0x90  PhysicalLayerCommunication_Class.o [1]
+  .text              ro code  0x08009ef8    0x2c  UIIRQHandlerClass.o [1]
+  .text              ro code  0x08009f24   0x19a  stm32f10x_usart.o [1]
+  .rodata            const    0x0800a0c0  0x11d0  stm3210e_eval_lcd.o [1]
+  .text              ro code  0x0800b290   0x158  system_stm32f10x.o [1]
+  .text              ro code  0x0800b3e8   0x13c  stm32f10x_MC_it.o [1]
+  .text              ro code  0x0800b524    0xf8  main.o [1]
+  .rodata            const    0x0800b61c    0xb4  MCTasks.o [1]
+  .rodata            const    0x0800b6d0    0xb4  MCTasks.o [1]
+  .rodata            const    0x0800b784    0x94  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800b818    0x88  MCTasks.o [1]
+  .rodata            const    0x0800b8a0    0x88  MCTasks.o [1]
+  .text              ro code  0x0800b928    0x40  zero_init3.o [6]
+  .rodata            const    0x0800b968    0x3c  MCTasks.o [1]
+  .rodata            const    0x0800b9a4    0x3c  MCTasks.o [1]
+  .text              ro code  0x0800b9e0    0x38  packbits_init_single.o [6]
+  .rodata            const    0x0800ba18    0x28  LCDVintage_UserInterfaceClass.o [1]
+  .text              ro code  0x0800ba40    0x28  data_init.o [6]
+  .rodata            const    0x0800ba68    0x24  UITask.o [1]
+  .iar.init_table    const    0x0800ba8c    0x20  - Linker created -
+  .rodata            const    0x0800baac    0x20  main.o [1]
+  .rodata            const    0x0800bacc    0x20  stm32_eval.o [1]
+  .text              ro code  0x0800baec    0x1a  cmain.o [6]
+  .text              ro code  0x0800bb06     0x4  low_level_init.o [4]
+  .text              ro code  0x0800bb0a     0x4  exit.o [4]
+  .text              ro code  0x0800bb10     0xa  cexit.o [6]
+  .text              ro code  0x0800bb1c    0x14  exit.o [7]
+  .rodata            const    0x0800bb30    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bb48    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bb60    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bb78    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bb90    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bba8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bbc0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bbd8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bbf0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc08    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc20    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc38    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc50    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc68    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc80    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bc98    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bcb0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bcc8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bce0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bcf8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd10    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd28    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd40    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd58    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd70    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bd88    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bda0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bdb8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bdd0    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bde8    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be00    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be18    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be30    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be48    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be60    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be78    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800be90    0x18  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bea8    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bec0    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bed8    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bef0    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf08    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf20    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf38    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf50    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf68    0x18  MCTasks.o [1]
+  .rodata            const    0x0800bf80    0x18  MCTasks.o [1]
+  .text              ro code  0x0800bf98    0x18  stm32f10x_it.o [1]
+  .rodata            const    0x0800bfb0    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bfc4    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bfd8    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800bfec    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c000    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c014    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c028    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c03c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c050    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c064    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c078    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c08c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c0a0    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c0b4    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c0c8    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c0dc    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c0f0    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c104    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c118    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c12c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c140    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c154    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c168    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c17c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c190    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c1a4    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c1b8    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c1cc    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c1e0    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c1f4    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c208    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c21c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c230    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c244    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c258    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c26c    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c280    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c294    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c2a8    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c2bc    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c2d0    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c2e4    0x10  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c2f4    0x10  MCTasks.o [1]
+  .rodata            const    0x0800c304    0x10  MCTasks.o [1]
+  .rodata            const    0x0800c314    0x10  stm32_eval.o [1]
+  .rodata            const    0x0800c324    0x10  stm32_eval.o [1]
+  .rodata            const    0x0800c334    0x10  stm32_eval.o [1]
+  .rodata            const    0x0800c344    0x10  stm32_eval.o [1]
+  .rodata            const    0x0800c354    0x10  stm32_eval.o [1]
+  .rodata            const    0x0800c364    0x10  UITask.o [1]
+  .rodata            const    0x0800c374    0x10  UITask.o [1]
+  .text              ro code  0x0800c384    0x10  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800c394     0xc  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c3a0     0xc  LCDVintage_UserInterfaceClass.o [1]
+  .rodata            const    0x0800c3ac     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3b8     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3c4     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3d0     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3dc     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3e8     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c3f4     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c400     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c40c     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c418     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c424     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c430     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c43c     0xc  MCTasks.o [1]
+  .rodata            const    0x0800c448     0xc  MCTasks.o [1]
+  .text              ro code  0x0800c454     0xc  cstartup_M.o [6]
+  .rodata            const    0x0800c460     0x8  MCTasks.o [1]
+  .rodata            const    0x0800c468     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c46c     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c470     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c474     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c478     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c47c     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c480     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c484     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c488     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c48c     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c490     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c494     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c498     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c49c     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c4a0     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c4a4     0x4  MCTasks.o [1]
+  .rodata            const    0x0800c4a8     0x4  UITask.o [1]
+  .rodata            const    0x0800c4ac     0x4  UITask.o [1]
+  .text              ro code  0x0800c4b0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4b4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4b8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4bc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4c0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4c4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4c8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4cc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4d0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4d4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4d8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4dc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4e0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4e4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4e8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4ec     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4f0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4f4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4f8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c4fc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c500     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c504     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c508     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c50c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c510     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c514     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c518     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c51c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c520     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c524     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c528     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c52c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c530     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c534     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c538     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c53c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c540     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c544     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c548     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c54c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c550     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c554     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c558     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c55c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c560     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c564     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c568     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c56c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c570     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c574     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c578     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c57c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c580     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800c584     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800c588     0x0  zero_init3.o [6]
+  .rodata            const    0x0800c588     0x0  packbits_init_single.o [6]
+  Initializer bytes  const    0x0800c588    0x5a  <for P2-1>
+                            - 0x0800c5e2  0xc4b2
+
+"P2", part 1 of 3:                          0x7c
+  P2-1                        0x20000000    0x7c  <Init block>
+    .data            inited   0x20000000     0x8  main.o [1]
+    .data            inited   0x20000008     0x8  stm3210e_eval_lcd.o [1]
+    .data            inited   0x20000010    0x20  stm32_eval.o [1]
+    .data            inited   0x20000030    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000040     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20000044     0x4  system_stm32f10x.o [1]
+    .data            inited   0x20000048    0x18  FluxWeakeningCtrlClass.o [3]
+    .data            inited   0x20000060    0x18  STO_SpeednPosFdbkClass.o [3]
+    .data            inited   0x20000078     0x2  stm3210e_eval_lcd.o [1]
+    .data            inited   0x2000007a     0x2  UITask.o [1]
+                            - 0x2000007c    0x7c
+
+"P2", part 2 of 3:                        0x1000
+  CSTACK                      0x20000080  0x1000  <Block>
+    CSTACK           uninit   0x20000080  0x1000  <Block tail>
+                            - 0x20001080  0x1000
+
+"P2", part 3 of 3:                        0x10f0
+  .bss               zero     0x20001080   0x234  MotorPowerMeasurementClass.o [3]
+  .bss               zero     0x200012b4   0x22c  FrameCommunicationProtocolClass.o [1]
+  .bss               zero     0x200014e0   0x1c4  PIRegulatorClass.o [3]
+  .bss               zero     0x200016a4   0x19c  STO_SpeednPosFdbkClass.o [3]
+  .bss               zero     0x20001840   0x110  MotorControlProtocolClass.o [1]
+  .bss               zero     0x20001950   0x10c  SpeednPosFdbkClass.o [3]
+  .bss               zero     0x20001a5c    0xfc  RevupCtrlClass.o [3]
+  .bss               zero     0x20001b58    0xd8  UserInterfaceClass.o [1]
+  .bss               zero     0x20001c30    0xc4  PWMnCurrFdbkClass.o [3]
+  .bss               zero     0x20001cf4    0xa0  MCTuningClass.o [1]
+  .bss               zero     0x20001d94    0x64  R3_HD2_PWMnCurrFdbkClass.o [3]
+  .bss               zero     0x20001df8    0x48  MCTasks.o [1]
+  .bss               zero     0x20001e40    0x44  SpeednTorqCtrlClass.o [3]
+  .bss               zero     0x20001e84    0x40  MCInterfaceClass.o [1]
+  .bss               zero     0x20001ec4    0x3c  TemperatureSensorClass.o [3]
+  .bss               zero     0x20001f00    0x3c  BusVoltageSensorClass.o [3]
+  .bss               zero     0x20001f3c    0x34  FluxWeakeningCtrlClass.o [3]
+  .bss               zero     0x20001f70    0x34  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+  .bss               zero     0x20001fa4    0x24  PhysicalLayerCommunication_Class.o [1]
+  .bss               zero     0x20001fc8    0x24  OpenLoopClass.o [3]
+  .bss               zero     0x20001fec    0x1c  StateMachineClass.o [3]
+  .bss               zero     0x20002008    0x1c  PQD_MotorPowerMeasurementClass.o [3]
+  .bss               zero     0x20002024    0x14  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x20002038    0x10  MCIRQHandlerClass.o [3]
+  .bss               zero     0x20002048     0xc  DAC_UserInterfaceClass.o [1]
+  .bss               zero     0x20002054     0xc  CircleLimitationClass.o [3]
+  .bss               zero     0x20002060     0xc  Virtual_TemperatureSensorClass.o [3]
+  .bss               zero     0x2000206c     0xc  Virtual_BusVoltageSensorClass.o [3]
+  .bss               zero     0x20002078     0x8  main.o [1]
+  .bss               zero     0x20002080     0x8  main.o [1]
+  .bss               zero     0x20002088     0x8  MCTasks.o [1]
+  .bss               zero     0x20002090     0x8  MCTasks.o [1]
+  .bss               zero     0x20002098     0x8  MCTasks.o [1]
+  .bss               zero     0x200020a0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020a8     0x8  MCTasks.o [1]
+  .bss               zero     0x200020b0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020b8     0x8  MCTasks.o [1]
+  .bss               zero     0x200020c0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020c8     0x8  MCTasks.o [1]
+  .bss               zero     0x200020d0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020d8     0x8  MCTasks.o [1]
+  .bss               zero     0x200020e0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020e8     0x8  MCTasks.o [1]
+  .bss               zero     0x200020f0     0x8  MCTasks.o [1]
+  .bss               zero     0x200020f8     0x8  MCTasks.o [1]
+  .bss               zero     0x20002100     0x8  MCTasks.o [1]
+  .bss               zero     0x20002108     0x8  MCTasks.o [1]
+  .bss               zero     0x20002110     0x4  MCTasks.o [1]
+  .bss               zero     0x20002114     0x4  MCTasks.o [1]
+  .bss               zero     0x20002118     0x4  MCTasks.o [1]
+  .bss               zero     0x2000211c     0x4  MCTasks.o [1]
+  .bss               zero     0x20002120     0x4  stm3210e_eval_lcd.o [1]
+  .bss               zero     0x20002124     0x4  UIIRQHandlerClass.o [1]
+  .bss               zero     0x20002128     0x4  UITask.o [1]
+  .bss               zero     0x2000212c     0x4  UITask.o [1]
+  .bss               zero     0x20002130     0x4  UITask.o [1]
+  .bss               zero     0x20002134     0x4  UITask.o [1]
+  .bss               zero     0x20002138     0x4  UITask.o [1]
+  .bss               zero     0x2000213c     0x4  USART_PhysicalLayerCommunication_Class.o [1]
+  .bss               zero     0x20002140     0x2  MCTasks.o [1]
+  .bss               zero     0x20002142     0x2  MCTasks.o [1]
+  .bss               zero     0x20002144     0x2  MCTasks.o [1]
+  .bss               zero     0x20002146     0x2  MCTasks.o [1]
+  .bss               zero     0x20002148     0x2  MCTasks.o [1]
+  .bss               zero     0x2000214a     0x2  MCTasks.o [1]
+  .bss               zero     0x2000214c     0x2  MCTasks.o [1]
+  .bss               zero     0x2000214e     0x2  stm3210e_eval_lcd.o [1]
+  .bss               zero     0x20002150     0x2  stm3210e_eval_lcd.o [1]
+  .bss               zero     0x20002152     0x2  Timebase.o [1]
+  .bss               zero     0x20002154     0x2  Timebase.o [1]
+  .bss               zero     0x20002156     0x2  UITask.o [1]
+  .bss               zero     0x20002158     0x2  UITask.o [1]
+  .bss               zero     0x2000215a     0x1  DAC_UserInterfaceClass.o [1]
+  .bss               zero     0x2000215b     0x1  FrameCommunicationProtocolClass.o [1]
+  .bss               zero     0x2000215c     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x2000215d     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x2000215e     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x2000215f     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x20002160     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x20002161     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x20002162     0x1  LCDVintage_UserInterfaceClass.o [1]
+  .bss               zero     0x20002163     0x1  MCInterfaceClass.o [1]
+  .bss               zero     0x20002164     0x1  MCTasks.o [1]
+  .bss               zero     0x20002165     0x1  MCTasks.o [1]
+  .bss               zero     0x20002166     0x1  MCTasks.o [1]
+  .bss               zero     0x20002167     0x1  MCTasks.o [1]
+  .bss               zero     0x20002168     0x1  MCTuningClass.o [1]
+  .bss               zero     0x20002169     0x1  MotorControlProtocolClass.o [1]
+  .bss               zero     0x2000216a     0x1  PhysicalLayerCommunication_Class.o [1]
+  .bss               zero     0x2000216b     0x1  USART_PhysicalLayerCommunication_Class.o [1]
+  .bss               zero     0x2000216c     0x1  UserInterfaceClass.o [1]
+                            - 0x2000216d  0x10ed
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x10ed:
+          0x20001080  0x10ed
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x5a (72% of destination):
+          0x0800c588    0x5a
+    1 destination range, total size 0x7c:
+          0x20000000    0x7c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                    ro code  ro data  rw data
+    ------                                    -------  -------  -------
+C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj: [1]
+    DAC_UserInterfaceClass.o                      310                13
+    FrameCommunicationProtocolClass.o             688        6      557
+    LCDVintage_UserInterfaceClass.o             6 752    1 936       27
+    MCInterfaceClass.o                            594                65
+    MCTasks.o                                   4 808    1 264      242
+    MCTuningClass.o                               120               161
+    MotorControlProtocolClass.o                 1 366               273
+    PhysicalLayerCommunication_Class.o            144                37
+    Timebase.o                                     88                 4
+    UIIRQHandlerClass.o                            44                 4
+    UITask.o                                      444       78       26
+    USART_PhysicalLayerCommunication_Class.o      460                 5
+    UserInterfaceClass.o                        4 302               217
+    main.o                                        248       37       24
+    misc.o                                        124
+    startup_stm32f10x_hd.o                        536
+    stm3210e_eval_lcd.o                         2 876    4 567       18
+    stm32_eval.o                                  292      135       32
+    stm32f10x_MC_it.o                             316
+    stm32f10x_adc.o                               516
+    stm32f10x_dac.o                               196
+    stm32f10x_dbgmcu.o                             40
+    stm32f10x_dma.o                               412
+    stm32f10x_exti.o                              152
+    stm32f10x_fsmc.o                              284
+    stm32f10x_gpio.o                              500
+    stm32f10x_it.o                                 24
+    stm32f10x_rcc.o                               416       15       20
+    stm32f10x_tim.o                             1 588
+    stm32f10x_usart.o                             410
+    system_stm32f10x.o                            344        3        4
+    -------------------------------------------------------------------
+    Total:                                     29 394    8 041    1 729
+
+command line: [2]
+    -------------------------------------------------------------------
+    Total:
+
+MC_Library_STM32F10x_dual_drive.a: [3]
+    BusVoltageSensorClass.o                        60                60
+    CircleLimitationClass.o                       112                12
+    FeedForwardCtrlClass.o                         58
+    FluxWeakeningCtrlClass.o                    1 428       17       76
+    MCIRQHandlerClass.o                            24                16
+    MC_Math.o                                     940
+    MotorPowerMeasurementClass.o                  184               564
+    OpenLoopClass.o                               102                36
+    PID_PIRegulatorClass.o                         18
+    PIRegulatorClass.o                            242               452
+    PQD_MotorPowerMeasurementClass.o              172                28
+    PWMnCurrFdbkClass.o                           510               196
+    R3_HD2_PWMnCurrFdbkClass.o                  3 580               100
+    RevupCtrlClass.o                              426               252
+    STO_CORDIC_SpeednPosFdbkClass.o                92
+    STO_SpeednPosFdbkClass.o                    3 004       18      436
+    SpeednPosFdbkClass.o                          198               268
+    SpeednTorqCtrlClass.o                         402                68
+    StateMachineClass.o                           306                28
+    TemperatureSensorClass.o                       48                60
+    VirtualSpeedSensor_SpeednPosFdbkClass.o       594                52
+    Virtual_BusVoltageSensorClass.o                96                12
+    Virtual_TemperatureSensorClass.o              102                12
+    -------------------------------------------------------------------
+    Total:                                     12 698       35    2 728
+
+dl7M_tlf.a: [4]
+    exit.o                                          4
+    low_level_init.o                                4
+    -------------------------------------------------------------------
+    Total:                                          8
+
+m7M_tl.a: [5]
+    -------------------------------------------------------------------
+    Total:
+
+rt7M_tl.a: [6]
+    ABImemclr.o                                     6
+    ABImemcpy_unaligned.o                          86
+    ABImemset.o                                    94
+    cexit.o                                        10
+    cmain.o                                        26
+    cstartup_M.o                                   12
+    data_init.o                                    40
+    packbits_init_single.o                         56
+    zero_init3.o                                   64
+    -------------------------------------------------------------------
+    Total:                                        394
+
+shb_l.a: [7]
+    exit.o                                         20
+    -------------------------------------------------------------------
+    Total:                                         20
+
+    Gaps                                           34        2
+    Linker created                                          32    4 096
+-----------------------------------------------------------------------
+    Grand Total:                               42 548    8 110    8 553
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0800ba8c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800baac           --   Gb  - Linker created -
+?main                   0x0800baed          Code  Gb  cmain.o [6]
+ADC1_2_IRQHandler       0x0800b3e9    0x1a  Code  Gb  stm32f10x_MC_it.o [1]
+ADCPrescTable           0x20000040     0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_ClearFlag           0x080095cd     0x8  Code  Gb  stm32f10x_adc.o [1]
+ADC_Cmd                 0x08009491    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DMACmd              0x080094ab    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DeInit              0x080093d1    0x5c  Code  Gb  stm32f10x_adc.o [1]
+ADC_ExternalTrigConvCmd
+                        0x08009501    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x080094ed    0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_ITConfig            0x080094c5    0x1e  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x0800942d    0x4a  Code  Gb  stm32f10x_adc.o [1]
+ADC_InjectedChannelConfig
+                        0x08009535    0x84  Code  Gb  stm32f10x_adc.o [1]
+ADC_InjectedDiscModeCmd
+                        0x0800951b    0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x080094e3     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_StructInit          0x08009477    0x1a  Code  Gb  stm32f10x_adc.o [1]
+APBAHBPrescTable        0x20000030    0x10  Data  Lc  stm32f10x_rcc.o [1]
+ASCII16x24_Table        0x0800a0c0  0x11d0  Data  Gb  stm3210e_eval_lcd.o [1]
+BUTTON_CLK              0x0800bacc    0x20  Data  Gb  stm32_eval.o [1]
+BUTTON_EXTI_LINE        0x0800c324    0x10  Data  Gb  stm32_eval.o [1]
+BUTTON_IRQn             0x0800c354    0x10  Data  Gb  stm32_eval.o [1]
+BUTTON_PIN              0x0800c314    0x10  Data  Gb  stm32_eval.o [1]
+BUTTON_PIN_SOURCE       0x0800c344    0x10  Data  Gb  stm32_eval.o [1]
+BUTTON_PORT             0x20000010    0x20  Data  Gb  stm32_eval.o [1]
+BUTTON_PORT_SOURCE      0x0800c334    0x10  Data  Gb  stm32_eval.o [1]
+BackColor               0x20000078     0x2  Data  Gb  stm3210e_eval_lcd.o [1]
+BusFault_Handler        0x0800bf9f     0x2  Code  Gb  stm32f10x_it.o [1]
+CLM_Allocated           0x20002054     0x1  Data  Gb  CircleLimitationClass.o [3]
+CLM_NewObject           0x080075dd    0x1c  Code  Gb  CircleLimitationClass.o [3]
+CLMpool                 0x20002058     0x8  Data  Gb  CircleLimitationClass.o [3]
+COM_Allocated           0x2000216a     0x1  Data  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_NewObject           0x08009e69    0x24  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_ReceiveBuffer       0x08009ecf    0x1a  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_ResetRX             0x08009ea7     0xe  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_ResetTX             0x08009e99     0xe  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_SendBuffer          0x08009eb5    0x1a  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_SetParent           0x08009e95     0x4  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_StartReceive        0x08009ee9     0x8  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COM_StartTransmit       0x08009ef1     0x8  Code  Gb  PhysicalLayerCommunication_Class.o [1]
+COMpool                 0x20001fa4    0x24  Data  Gb  PhysicalLayerCommunication_Class.o [1]
+CSTACK$$Base            0x20000080           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001080           --   Gb  - Linker created -
+CalcCRC                 0x080091c3    0x3c  Code  Gb  FrameCommunicationProtocolClass.o [1]
+CircleLimitationParamsM1
+                        0x0800b6d0    0xb4  Data  Gb  MCTasks.o [1]
+CircleLimitationParamsM2
+                        0x0800b61c    0xb4  Data  Gb  MCTasks.o [1]
+Circle_Limitation       0x080075fd    0x50  Code  Gb  CircleLimitationClass.o [3]
+ComputeVisualization    0x08000feb    0xb8  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+DAC_Cmd                 0x08009deb    0x2c  Code  Gb  stm32f10x_dac.o [1]
+DAC_DeInit              0x08009da5    0x18  Code  Gb  stm32f10x_dac.o [1]
+DAC_DualSoftwareTriggerCmd
+                        0x08009e17    0x22  Code  Gb  stm32f10x_dac.o [1]
+DAC_Exec                0x080088f5    0x3a  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_GetChannelConfig    0x08008939     0x8  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_GetUserChannelValue
+                        0x0800894d     0xe  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_Init                0x08009dbd    0x2e  Code  Gb  stm32f10x_dac.o [1]
+DAC_Init_               0x08008879    0x6e  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_NewObject           0x08008825    0x54  Code  Gb  DAC_UserInterfaceClass.o [1]
+DAC_SetChannelConfig    0x08008931     0x8  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_SetDualChannelData  0x08009e39    0x28  Code  Gb  stm32f10x_dac.o [1]
+DAC_SetUserChannelValue
+                        0x08008941     0xc  Code  Lc  DAC_UserInterfaceClass.o [1]
+DAC_UI_Allocated        0x2000215a     0x1  Data  Gb  DAC_UserInterfaceClass.o [1]
+DAC_UIpool              0x20002048     0xc  Data  Gb  DAC_UserInterfaceClass.o [1]
+DBGMCU_Config           0x080093a9    0x20  Code  Gb  stm32f10x_dbgmcu.o [1]
+DMA_Cmd                 0x0800971b    0x1c  Code  Gb  stm32f10x_dma.o [1]
+DMA_DeInit              0x080095d5   0x10a  Code  Gb  stm32f10x_dma.o [1]
+DMA_Init                0x080096df    0x3c  Code  Gb  stm32f10x_dma.o [1]
+DebugMon_Handler        0x0800bfa5     0x2  Code  Gb  stm32f10x_it.o [1]
+DisplayChar             0x08000fd9    0x12  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+Display_1DigitUnsignedNumber
+                        0x08000f95    0x20  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+Display_3DigitUnsignedNumber
+                        0x08000f17    0x7e  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+Display_5DigitSignedNumber
+                        0x08000e71    0xa6  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+Display_5dot_line       0x08000fb5    0x24  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+Display_LCD             0x08000301   0xb30  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+EXTI_Init               0x08005a3d    0x86  Code  Gb  stm32f10x_exti.o [1]
+Exec_IRQ_Handler        0x08009399     0xa  Code  Gb  MCIRQHandlerClass.o [3]
+Exec_UI_IRQ_Handler     0x08009f03    0x1e  Code  Gb  UIIRQHandlerClass.o [1]
+FCPTimeOut              0x0800930f     0xe  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_Allocated           0x2000215b     0x1  Data  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_Init                0x080090c1    0x1c  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_NewObject           0x08009081    0x40  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_SendOverrunMeassage
+                        0x0800931d     0xa  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_SendTimeoutMeassage
+                        0x08009327     0xa  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCP_SetParent           0x080090dd     0x4  Code  Gb  FrameCommunicationProtocolClass.o [1]
+FCPpool                 0x200012b4   0x22c  Data  Gb  FrameCommunicationProtocolClass.o [1]
+FF_GetFFConstants       0x08005295    0x1e  Code  Gb  FeedForwardCtrlClass.o [3]
+FF_GetVqdAvPIout        0x080052bd     0xa  Code  Gb  FeedForwardCtrlClass.o [3]
+FF_GetVqdff             0x080052b3     0xa  Code  Gb  FeedForwardCtrlClass.o [3]
+FF_SetFFConstants       0x0800528d     0x8  Code  Gb  FeedForwardCtrlClass.o [3]
+FOCVars                 0x20001df8    0x48  Data  Gb  MCTasks.o [1]
+FOC_CalcCurrRef         0x08006911    0x98  Code  Lc  MCTasks.o [1]
+FOC_Clear               0x08006823    0xec  Code  Lc  MCTasks.o [1]
+FOC_CurrController      0x08006f01   0x16e  Code  Lc  MCTasks.o [1]
+FOC_InitAdditionalMethods
+                        0x0800690f     0x2  Code  Lc  MCTasks.o [1]
+FOC_array               0x20002108     0x8  Data  Lc  MCTasks.o [1]
+FOC_array_head          0x20002166     0x1  Data  Lc  MCTasks.o [1]
+FOC_array_tail          0x20002167     0x1  Data  Lc  MCTasks.o [1]
+FSMC_NORSRAMCmd         0x08005a03    0x32  Code  Gb  stm32f10x_fsmc.o [1]
+FSMC_NORSRAMInit        0x08005921    0xe2  Code  Gb  stm32f10x_fsmc.o [1]
+FSgma                   0x08003e8d    0x3c  Code  Lc  FluxWeakeningCtrlClass.o [3]
+FSgma                   0x080046ed    0x3c  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+FSgma1                  0x08003ec9    0x32  Code  Lc  FluxWeakeningCtrlClass.o [3]
+FSgma1                  0x08004729    0x3a  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+FSgma2                  0x08003efd    0x34  Code  Lc  FluxWeakeningCtrlClass.o [3]
+FSgma2                  0x08004765    0x3c  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+FSgma3                  0x08003f31    0x32  Code  Lc  FluxWeakeningCtrlClass.o [3]
+FSgma3                  0x080047a1    0x3a  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+FWParamsM1              0x0800c304    0x10  Data  Gb  MCTasks.o [1]
+FWParamsM2              0x0800c2f4    0x10  Data  Gb  MCTasks.o [1]
+FW_Allocated            0x20001f3c     0x1  Data  Gb  FluxWeakeningCtrlClass.o [3]
+FW_CalcCurrRef          0x080042ab    0xa0  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_Clear                0x0800428d    0x1e  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_DataProcess          0x0800434b    0x3a  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_GetAvVPercentage     0x0800438d    0x16  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_GetVref              0x08004389     0x4  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_Init                 0x08004225    0x42  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_NewObject            0x08004201    0x24  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FW_SetVref              0x08004385     0x4  Code  Gb  FluxWeakeningCtrlClass.o [3]
+FWpool                  0x20001f40    0x30  Data  Gb  FluxWeakeningCtrlClass.o [3]
+Font16x24               0x20000008     0x8  Data  Gb  stm3210e_eval_lcd.o [1]
+FrameParams_str         0x0800c374    0x10  Data  Gb  UITask.o [1]
+FrameTimeOutConfiguration
+                        0x080091b5     0xe  Code  Gb  FrameCommunicationProtocolClass.o [1]
+Frame_Receive           0x08009103    0x54  Code  Gb  FrameCommunicationProtocolClass.o [1]
+Frame_ResetRX           0x080090f1    0x12  Code  Gb  FrameCommunicationProtocolClass.o [1]
+Frame_ResetTX           0x080090e1    0x10  Code  Gb  FrameCommunicationProtocolClass.o [1]
+Frame_Send              0x08009157    0x5e  Code  Gb  FrameCommunicationProtocolClass.o [1]
+GPIO_EXTILineConfig     0x08004607    0x4e  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x0800446d    0xc0  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinLockConfig      0x08004571    0x16  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08004587    0x80  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x0800453d    0x16  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08004559     0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08004553     0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_StructInit         0x0800452d    0x10  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_WriteBit           0x0800455f    0x12  Code  Gb  stm32f10x_gpio.o [1]
+GUI_DAC_ChID            0x0800ba18    0x28  Data  Gb  LCDVintage_UserInterfaceClass.o [1]
+GUI_DAC_ChTxt           0x0800b784    0x94  Data  Gb  LCDVintage_UserInterfaceClass.o [1]
+HardFault_Handler       0x0800bf9b     0x2  Code  Gb  stm32f10x_it.o [1]
+IsFrameValid            0x080092e7    0x28  Code  Gb  FrameCommunicationProtocolClass.o [1]
+JOY_Pressed             0x080010a3    0x44  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+KEYS_Read               0x080010e7   0x1b4  Code  Gb  LCDVintage_UserInterfaceClass.o [1]
+KEYS_process            0x08001329   0x84a  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCDV_DACIDToSel         0x08000267    0x34  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCDV_DACSelUpdate       0x0800029b    0x60  Code  Gb  LCDVintage_UserInterfaceClass.o [1]
+LCDV_Exec               0x080001fd    0x64  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCDV_Init               0x08000181    0x7a  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCDV_NewObject          0x08000131    0x50  Code  Gb  LCDVintage_UserInterfaceClass.o [1]
+LCDV_UI_Allocated       0x20002162     0x1  Data  Gb  LCDVintage_UserInterfaceClass.o [1]
+LCDV_UIpool             0x20002024    0x14  Data  Gb  LCDVintage_UserInterfaceClass.o [1]
+LCDV_UpdateAll          0x08000261     0x2  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCDV_UpdateMeasured     0x08000265     0x2  Code  Lc  LCDVintage_UserInterfaceClass.o [1]
+LCD_Clear               0x080033bd    0x3a  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_ClearLine           0x08003381    0x3c  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_CtrlLinesConfig     0x080036d1    0x9c  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_Currentfonts        0x20002120     0x4  Data  Lc  stm3210e_eval_lcd.o [1]
+LCD_DisplayChar         0x08003505    0x38  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_DisplayStringLine   0x0800353d    0x4c  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_DrawChar            0x08003447    0xbe  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_DrawLine            0x08003589    0xa0  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_DrawRect            0x08003629    0x5c  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_FSMCConfig          0x0800376d    0x70  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_ID                  0x20002150     0x2  Data  Lc  stm3210e_eval_lcd.o [1]
+LCD_ReadReg             0x0800369b    0x10  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_SetBackColor        0x08003369    0x10  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_SetCursor           0x080033f7    0x50  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_SetFont             0x08003379     0x8  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_SetTextColor        0x08003359    0x10  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_WriteRAM            0x080036b5     0x6  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_WriteRAM_Prepare    0x080036ab     0xa  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_WriteReg            0x0800368d     0xe  Code  Gb  stm3210e_eval_lcd.o [1]
+LCD_welcome_message_UI_counter
+                        0x2000007a     0x2  Data  Lc  UITask.o [1]
+MCI_Allocated           0x20002163     0x1  Data  Gb  MCInterfaceClass.o [1]
+MCI_Clear_Iqdref        0x08003d0f    0x10  Code  Gb  MCInterfaceClass.o [1]
+MCI_EncoderAlign        0x08003b8b     0xc  Code  Gb  MCInterfaceClass.o [1]
+MCI_ExecBufferedCommands
+                        0x08003b97    0x82  Code  Gb  MCInterfaceClass.o [1]
+MCI_ExecSpeedRamp       0x08003b19    0x12  Code  Gb  MCInterfaceClass.o [1]
+MCI_ExecTorqueRamp      0x08003b2b    0x12  Code  Gb  MCInterfaceClass.o [1]
+MCI_FaultAcknowledged   0x08003b81     0xa  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetAvrgMecSpeed01Hz
+                        0x08003c95     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetControlMode      0x08003c3d     0x4  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetCurrentFaults    0x08003c2f     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetIab              0x08003cad     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetIalphabeta       0x08003cbb     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetImposedMotorDirection
+                        0x08003c41    0x42  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetIqd              0x08003cc9     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetIqdref           0x08003cd7     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetLastRampFinalSpeed
+                        0x08003c83    0x12  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetMecSpeedRef01Hz  0x08003ca3     0xa  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetOccurredFaults   0x08003c23     0xc  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetSTMState         0x08003c19     0xa  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetTeref            0x08003d01     0x8  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetValphabeta       0x08003cf3     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_GetVqd              0x08003ce5     0xe  Code  Gb  MCInterfaceClass.o [1]
+MCI_Init                0x08003afd    0x1c  Code  Gb  MCInterfaceClass.o [1]
+MCI_NewObject           0x08003acd    0x26  Code  Gb  MCInterfaceClass.o [1]
+MCI_SetCurrentReferences
+                        0x08003b3d    0x1e  Code  Gb  MCInterfaceClass.o [1]
+MCI_SetIdref            0x08003d09     0x6  Code  Gb  MCInterfaceClass.o [1]
+MCI_StartMotor          0x08003b5b    0x1a  Code  Gb  MCInterfaceClass.o [1]
+MCI_StopMotor           0x08003b75     0xc  Code  Gb  MCInterfaceClass.o [1]
+MCIpool                 0x20001e84    0x40  Data  Gb  MCInterfaceClass.o [1]
+MCM_Clarke              0x08005b51    0x3a  Code  Gb  MC_Math.o [3]
+MCM_Park                0x08005b8b    0x5e  Code  Gb  MC_Math.o [3]
+MCM_Rev_Park            0x08005bf5    0x3c  Code  Gb  MC_Math.o [3]
+MCM_Sqrt                0x08005cc7    0x34  Code  Gb  MC_Math.o [3]
+MCM_Trig_Functions      0x08005c31    0x96  Code  Gb  MC_Math.o [3]
+MCPParams               0x0800c4ac     0x4  Data  Gb  UITask.o [1]
+MCP_Init                0x08008999    0x20  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_MCUI_Allocated      0x20002169     0x1  Data  Gb  MotorControlProtocolClass.o [1]
+MCP_MCUIpool            0x20001840   0x110  Data  Gb  MotorControlProtocolClass.o [1]
+MCP_NewObject           0x0800895d    0x34  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_ReceivedFrame       0x080089e1   0x48a  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_SendBadCRCMessage   0x08008e9b    0x18  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_SendOverrunMeassage
+                        0x08008e6b    0x18  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_SendTimeoutMeassage
+                        0x08008e83    0x18  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_SentFrame           0x080089d9     0x8  Code  Gb  MotorControlProtocolClass.o [1]
+MCP_WaitNextFrame       0x080089b9    0x20  Code  Gb  MotorControlProtocolClass.o [1]
+MCT_Allocated           0x20002168     0x1  Data  Gb  MCTuningClass.o [1]
+MCT_GetBusVoltageSensor
+                        0x08002cd1     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetFeedForwardCtrl  0x08002ca5     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetFluxWeakeningCtrl
+                        0x08002ca1     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetFluxWeakeningLoopPID
+                        0x08002cb5     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetIdLoopPID        0x08002cb1     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetIqLoopPID        0x08002cad     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetMotorPowerMeasurement
+                        0x08002cd5     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetRevupCtrl        0x08002cb9     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetSpeedLoopPID     0x08002ca9     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetSpeednPosSensorAuxiliary
+                        0x08002cc1     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetSpeednPosSensorMain
+                        0x08002cbd     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetSpeednTorqueController
+                        0x08002cc5     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetStateMachine     0x08002cc9     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_GetTemperatureSensor
+                        0x08002ccd     0x4  Code  Gb  MCTuningClass.o [1]
+MCT_Init                0x08002c91    0x10  Code  Gb  MCTuningClass.o [1]
+MCT_NewObject           0x08002c61    0x28  Code  Gb  MCTuningClass.o [1]
+MCTpool                 0x20001cf4    0xa0  Data  Gb  MCTuningClass.o [1]
+MC_IRQTable             0x20002038    0x10  Data  Gb  MCIRQHandlerClass.o [3]
+MC_Scheduler            0x080064c3    0xb0  Code  Gb  MCTasks.o [1]
+MCboot                  0x08005efd   0x5c6  Code  Gb  MCTasks.o [1]
+MPM_Allocated           0x20001080     0x1  Data  Gb  MotorPowerMeasurementClass.o [3]
+MPM_CalcElMotorPower    0x08005451    0x5e  Code  Gb  MotorPowerMeasurementClass.o [3]
+MPM_Clear               0x0800542b    0x26  Code  Gb  MotorPowerMeasurementClass.o [3]
+MPM_GetAvrgElMotorPowerW
+                        0x080054af     0x6  Code  Gb  MotorPowerMeasurementClass.o [3]
+MPM_Init                0x0800541d     0xe  Code  Gb  MotorPowerMeasurementClass.o [3]
+MPM_NewObject           0x080053fd    0x1c  Code  Gb  MotorPowerMeasurementClass.o [3]
+MPMpool                 0x20001084   0x230  Data  Gb  MotorPowerMeasurementClass.o [3]
+MemManage_Handler       0x0800bf9d     0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x0800bf99     0x2  Code  Gb  stm32f10x_it.o [1]
+NVICInitHW_str          0x0800c4a8     0x4  Data  Gb  UITask.o [1]
+NVIC_Init               0x08005adf    0x5e  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08005ad5     0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x0800b525    0x22  Code  Lc  main.o [1]
+OL_Allocated            0x20001fc8     0x1  Data  Gb  OpenLoopClass.o [3]
+OL_Calc                 0x08007691    0x22  Code  Gb  OpenLoopClass.o [3]
+OL_Init                 0x0800766d     0xe  Code  Gb  OpenLoopClass.o [3]
+OL_NewObject            0x0800764d    0x1c  Code  Gb  OpenLoopClass.o [3]
+OL_VqdConditioning      0x0800767b    0x16  Code  Gb  OpenLoopClass.o [3]
+OLpool                  0x20001fcc    0x20  Data  Gb  OpenLoopClass.o [3]
+OpenLoop_ParamsM1       0x0800c460     0x8  Data  Gb  MCTasks.o [1]
+PID_GetKD               0x08004669     0xa  Code  Gb  PID_PIRegulatorClass.o [3]
+PID_SetKD               0x08004661     0x8  Code  Gb  PID_PIRegulatorClass.o [3]
+PIFluxWeakeningParamsM1
+                        0x0800bf68    0x18  Data  Gb  MCTasks.o [1]
+PIFluxWeakeningParamsM2
+                        0x0800bef0    0x18  Data  Gb  MCTasks.o [1]
+PIIdParamsM1            0x0800bf50    0x18  Data  Gb  MCTasks.o [1]
+PIIdParamsM2            0x0800bed8    0x18  Data  Gb  MCTasks.o [1]
+PIIqParamsM1            0x0800bf38    0x18  Data  Gb  MCTasks.o [1]
+PIIqParamsM2            0x0800bec0    0x18  Data  Gb  MCTasks.o [1]
+PISpeedParamsM1         0x0800bf20    0x18  Data  Gb  MCTasks.o [1]
+PISpeedParamsM2         0x0800bea8    0x18  Data  Gb  MCTasks.o [1]
+PI_Allocated            0x200014e0     0x1  Data  Gb  PIRegulatorClass.o [3]
+PI_Controller           0x08003d8b    0x72  Code  Gb  PIRegulatorClass.o [3]
+PI_GetKI                0x08003d79     0x2  Code  Gb  PIRegulatorClass.o [3]
+PI_GetKIDivisor         0x08003e05     0x6  Code  Gb  PIRegulatorClass.o [3]
+PI_GetKP                0x08003d77     0x2  Code  Gb  PIRegulatorClass.o [3]
+PI_NewObject            0x08003d21    0x24  Code  Gb  PIRegulatorClass.o [3]
+PI_ObjectInit           0x08003d45    0x2a  Code  Gb  PIRegulatorClass.o [3]
+PI_SetIntegralTerm      0x08003d87     0x4  Code  Gb  PIRegulatorClass.o [3]
+PI_SetKI                0x08003d73     0x4  Code  Gb  PIRegulatorClass.o [3]
+PI_SetKP                0x08003d6f     0x4  Code  Gb  PIRegulatorClass.o [3]
+PI_SetLowerIntegralTermLimit
+                        0x08003e0b     0x4  Code  Gb  PIRegulatorClass.o [3]
+PI_SetUpperIntegralTermLimit
+                        0x08003e0f     0x4  Code  Gb  PIRegulatorClass.o [3]
+PIpool                  0x200014e4   0x1c0  Data  Gb  PIRegulatorClass.o [3]
+PQD_CalcElMotorPower    0x08008765    0x58  Code  Lc  PQD_MotorPowerMeasurementClass.o [3]
+PQD_Clear               0x08008761     0x2  Code  Lc  PQD_MotorPowerMeasurementClass.o [3]
+PQD_Init                0x08008751     0xe  Code  Lc  PQD_MotorPowerMeasurementClass.o [3]
+PQD_MPM_Allocated       0x20002008     0x1  Data  Gb  PQD_MotorPowerMeasurementClass.o [3]
+PQD_MPMpool             0x2000200c    0x18  Data  Gb  PQD_MotorPowerMeasurementClass.o [3]
+PQD_MotorPowerMeasurementParamsM1
+                        0x0800c4a4     0x4  Data  Gb  MCTasks.o [1]
+PQD_MotorPowerMeasurementParamsM2
+                        0x0800c488     0x4  Data  Gb  MCTasks.o [1]
+PQD_NewObject           0x08008711    0x3c  Code  Gb  PQD_MotorPowerMeasurementClass.o [3]
+PWMC_Allocated          0x20001c30     0x1  Data  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_CheckOverCurrent   0x080086ab     0x4  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_CurrentReadingCalibr
+                        0x0800865b    0x42  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_ExecRegularConv    0x080086a7     0x4  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_GetPhaseCurrents   0x080084f3     0x4  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_Init               0x080084d9    0x1a  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_NewObject          0x080084b1    0x24  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_SetPhaseVoltage    0x080084f7   0x150  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_SwitchOffPWM       0x08008647     0xa  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_SwitchOnPWM        0x08008651     0xa  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMC_TurnOnLowSides     0x0800869d     0xa  Code  Gb  PWMnCurrFdbkClass.o [3]
+PWMCpool                0x20001c34    0xc0  Data  Gb  PWMnCurrFdbkClass.o [3]
+PWMnCurrFdbkParamsM1    0x0800c48c     0x4  Data  Gb  MCTasks.o [1]
+PWMnCurrFdbkParamsM2    0x0800c470     0x4  Data  Gb  MCTasks.o [1]
+PendSV_Handler          0x0800bfa7     0x2  Code  Gb  stm32f10x_it.o [1]
+Phase1_M1               0x0800c43c     0xc  Data  Gb  MCTasks.o [1]
+Phase1_M2               0x0800c3e8     0xc  Data  Gb  MCTasks.o [1]
+Phase2_M1               0x0800c430     0xc  Data  Gb  MCTasks.o [1]
+Phase2_M2               0x0800c3dc     0xc  Data  Gb  MCTasks.o [1]
+Phase3_M1               0x0800c424     0xc  Data  Gb  MCTasks.o [1]
+Phase3_M2               0x0800c3d0     0xc  Data  Gb  MCTasks.o [1]
+Phase4_M1               0x0800c418     0xc  Data  Gb  MCTasks.o [1]
+Phase4_M2               0x0800c3c4     0xc  Data  Gb  MCTasks.o [1]
+Phase5_M1               0x0800c40c     0xc  Data  Gb  MCTasks.o [1]
+Phase5_M2               0x0800c3b8     0xc  Data  Gb  MCTasks.o [1]
+R3HD2_ADC_SetSamplingTime
+                        0x080083f5    0x46  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_CurrentReadingCalibration
+                        0x08007d29    0xc6  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_ExecRegularConv   0x080083d1    0x22  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_GetPhaseCurrents  0x08007df1   0x100  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_HFCurrentsCalibrationAB
+                        0x08007ef1    0x30  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_HFCurrentsCalibrationC
+                        0x08007f21    0x2e  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_IRQHandler        0x0800835d    0x72  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_Init              0x0800774d   0x394  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_IsOverCurrentOccurred
+                        0x08008499    0x18  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_NewObject         0x080076b5    0x96  Code  Gb  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_PWMC_Allocated    0x20001d94     0x1  Data  Gb  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_PWMCpool          0x20001d98    0x60  Data  Gb  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect1
+                        0x0800805d    0x74  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect2
+                        0x080080d1    0x76  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect3
+                        0x08008149    0x76  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect4
+                        0x080081c1    0x7c  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect5
+                        0x0800823d    0x7c  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SetADCSampPointSect6
+                        0x080082b9    0x74  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_StartTimers       0x08007ccb    0x5c  Code  Gb  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SwitchOffPWM      0x08007ff5    0x68  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_SwitchOnPWM       0x08007f89    0x46  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_TIMxInit          0x08007ae1   0x1ea  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3HD2_TurnOnLowSides    0x08007f51    0x38  Code  Lc  R3_HD2_PWMnCurrFdbkClass.o [3]
+R3_DDParamsM1           0x0800b8a0    0x88  Data  Gb  MCTasks.o [1]
+R3_DDParamsM2           0x0800b818    0x88  Data  Gb  MCTasks.o [1]
+RCC_ADCCLKConfig        0x08005781    0x12  Code  Gb  stm32f10x_rcc.o [1]
+RCC_AHBPeriphClockCmd   0x0800584d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x0800588d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x080058cd    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x0800586d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x080058ad    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_ClockSecuritySystemCmd
+                        0x080058ed     0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x08005793    0xba  Code  Gb  stm32f10x_rcc.o [1]
+RUC_Allocated           0x20001a5c     0x1  Data  Gb  RevupCtrlClass.o [3]
+RUC_Clear               0x0800551d    0x7c  Code  Gb  RevupCtrlClass.o [3]
+RUC_Exec                0x08005599    0x62  Code  Gb  RevupCtrlClass.o [3]
+RUC_FirstAccelerationStageReached
+                        0x0800564d    0x12  Code  Gb  RevupCtrlClass.o [3]
+RUC_GetNumberOfPhases   0x08005647     0x6  Code  Gb  RevupCtrlClass.o [3]
+RUC_GetPhaseDurationms  0x0800561f     0xc  Code  Gb  RevupCtrlClass.o [3]
+RUC_GetPhaseFinalMecSpeed01Hz
+                        0x0800562b     0xe  Code  Gb  RevupCtrlClass.o [3]
+RUC_GetPhaseFinalTorque
+                        0x08005639     0xe  Code  Gb  RevupCtrlClass.o [3]
+RUC_Init                0x080054d9    0x44  Code  Gb  RevupCtrlClass.o [3]
+RUC_NewObject           0x080054b5    0x20  Code  Gb  RevupCtrlClass.o [3]
+RUC_SetPhaseDurationms  0x080055fb     0xc  Code  Gb  RevupCtrlClass.o [3]
+RUC_SetPhaseFinalMecSpeed01Hz
+                        0x08005607     0xc  Code  Gb  RevupCtrlClass.o [3]
+RUC_SetPhaseFinalTorque
+                        0x08005613     0xc  Code  Gb  RevupCtrlClass.o [3]
+RUCpool                 0x20001a60    0xf8  Data  Gb  RevupCtrlClass.o [3]
+ReceivingFrame          0x080091ff    0xae  Code  Gb  FrameCommunicationProtocolClass.o [1]
+Region$$Table$$Base     0x0800ba8c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800baac           --   Gb  - Linker created -
+RevupCtrlParamsM1       0x0800c448     0xc  Data  Gb  MCTasks.o [1]
+RevupCtrlParamsM2       0x0800c3f4     0xc  Data  Gb  MCTasks.o [1]
+SPD_Allocated           0x20001950     0x1  Data  Gb  SpeednPosFdbkClass.o [3]
+SPD_CalcAngle           0x080056a3     0x4  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_CalcAvrgMecSpeed01Hz
+                        0x080056a7    0x6a  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_Clear               0x08005699     0xa  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_GetAvrgMecSpeed01Hz
+                        0x0800568f     0x6  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_GetElAngle          0x08005689     0x6  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_GetS16Speed         0x08005711    0x16  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_Init                0x08005685     0x4  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_NewObject           0x08005661    0x1e  Code  Gb  SpeednPosFdbkClass.o [3]
+SPD_SetMecAngle         0x08005695     0x4  Code  Gb  SpeednPosFdbkClass.o [3]
+SPDpool                 0x20001954   0x108  Data  Gb  SpeednPosFdbkClass.o [3]
+STC_Allocated           0x20001e40     0x1  Data  Gb  SpeednTorqCtrlClass.o [3]
+STC_CalcTorqueReference
+                        0x08003a45    0x58  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_Clear               0x08003981    0x10  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_ExecRamp            0x080039a7    0x98  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetDefaultIqdref    0x08003ab3    0x18  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetMaxAppPositiveMecSpeed01Hz
+                        0x08003aa5     0x6  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetMecSpeedRef01Hz  0x08003991     0x4  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetMecSpeedRef01HzDefault
+                        0x08003a9d     0x8  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetMinAppNegativeMecSpeed01Hz
+                        0x08003aab     0x8  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_GetSpeedSensor      0x0800397d     0x4  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_Init                0x08003959    0x20  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_NewObject           0x08003939    0x1c  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_SetControlMode      0x0800399f     0x8  Code  Gb  SpeednTorqCtrlClass.o [3]
+STC_SetSpeedSensor      0x08003979     0x4  Code  Gb  SpeednTorqCtrlClass.o [3]
+STCpool                 0x20001e44    0x40  Data  Gb  SpeednTorqCtrlClass.o [3]
+STM3210E_LCD_Init       0x08002cd9   0x680  Code  Gb  stm3210e_eval_lcd.o [1]
+STM_Allocated           0x20001fec     0x1  Data  Gb  StateMachineClass.o [3]
+STM_EVAL_JOYInit        0x0800390d    0x2c  Code  Gb  stm32_eval.o [1]
+STM_EVAL_PBGetState     0x080038d3    0x1c  Code  Gb  stm32_eval.o [1]
+STM_EVAL_PBInit         0x08003815    0xbe  Code  Gb  stm32_eval.o [1]
+STM_FaultAcknowledged   0x080053db    0x16  Code  Gb  StateMachineClass.o [3]
+STM_FaultProcessing     0x080053a9    0x2e  Code  Gb  StateMachineClass.o [3]
+STM_GetFaultState       0x080053f1     0xa  Code  Gb  StateMachineClass.o [3]
+STM_GetState            0x080053d7     0x4  Code  Gb  StateMachineClass.o [3]
+STM_Init                0x080052e9     0xa  Code  Gb  StateMachineClass.o [3]
+STM_NewObject           0x080052c9    0x1c  Code  Gb  StateMachineClass.o [3]
+STM_NextState           0x080052f5    0xb4  Code  Gb  StateMachineClass.o [3]
+STMpool                 0x20001ff0    0x18  Data  Gb  StateMachineClass.o [3]
+STOParamsM1             0x0800b9a4    0x3c  Data  Gb  MCTasks.o [1]
+STOParamsM2             0x0800b968    0x3c  Data  Gb  MCTasks.o [1]
+STO_CR_GetEstimatedBemf
+                        0x08005231    0x18  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CR_GetEstimatedBemfLevel
+                        0x0800527d     0x8  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CR_GetEstimatedCurrent
+                        0x08005249    0x20  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CR_GetObservedBemfLevel
+                        0x08005285     0x8  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CR_GetObserverGains
+                        0x08005269     0xc  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CR_SetObserverGains
+                        0x08005275     0x8  Code  Gb  STO_CORDIC_SpeednPosFdbkClass.o [3]
+STO_CalcAvrgElSpeedDpp  0x08005007    0x58  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_CalcAvrgMecSpeed01Hz
+                        0x08004e15   0x1f2  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_CalcElAngle         0x08004bdd   0x206  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_Clear               0x08005061    0x9c  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_GetEstimatedBemf    0x08005191    0x18  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_GetEstimatedBemfLevel
+                        0x08005221     0x8  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_GetEstimatedCurrent
+                        0x080051a9    0x20  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_GetObservedBemfLevel
+                        0x08005229     0x8  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_GetObserverGains    0x080051c9     0xc  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_GetPLLGains         0x080051dd    0x1a  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_Init                0x08004add    0xfc  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_IsObserverConverged
+                        0x080050fd    0x94  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_NewObject           0x08004a79    0x64  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_ResetPLL            0x08005217     0xa  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_Return              0x08004bd9     0x2  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_SPD_Allocated       0x200016a4     0x1  Data  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_SPDpool             0x200016a8   0x198  Data  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_SetMecAngle         0x08005215     0x2  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+STO_SetObserverGains    0x080051d5     0x8  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+STO_SetPLLGains         0x080051f7    0x1c  Code  Gb  STO_SpeednPosFdbkClass.o [3]
+SVC_Handler             0x0800bfa3     0x2  Code  Gb  stm32f10x_it.o [1]
+SendingFrame            0x080092c5    0x22  Code  Gb  FrameCommunicationProtocolClass.o [1]
+SetSysClock             0x0800b2e5     0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x0800b2ed    0xe0  Code  Lc  system_stm32f10x.o [1]
+Set_IRQ_Handler         0x08009391     0x8  Code  Gb  MCIRQHandlerClass.o [3]
+Set_UI_IRQ_Handler      0x08009ef9     0xa  Code  Gb  UIIRQHandlerClass.o [1]
+Sgma                    0x08003e15    0x3c  Code  Lc  FluxWeakeningCtrlClass.o [3]
+Sgma                    0x08004675    0x3c  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+Sgma1                   0x08003e51    0x3c  Code  Lc  FluxWeakeningCtrlClass.o [3]
+Sgma1                   0x080046b1    0x3c  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+SgmaInit                0x080041bd    0x16  Code  Lc  FluxWeakeningCtrlClass.o [3]
+SgmaInit                0x08004a35    0x18  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+SgmaInit1               0x080041d5    0x16  Code  Lc  FluxWeakeningCtrlClass.o [3]
+SgmaInit1               0x08004a4d    0x16  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+SgmaInit2               0x080041ed    0x14  Code  Lc  FluxWeakeningCtrlClass.o [3]
+SgmaInit2               0x08004a65    0x14  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+SpeednPosFdbkParamsM1   0x0800c400     0xc  Data  Gb  MCTasks.o [1]
+SpeednPosFdbkParamsM2   0x0800c3ac     0xc  Data  Gb  MCTasks.o [1]
+SpeednTorqCtrlParamsM1  0x0800bf80    0x18  Data  Gb  MCTasks.o [1]
+SpeednTorqCtrlParamsM2  0x0800bf08    0x18  Data  Gb  MCTasks.o [1]
+Swc                     0x08003f65   0x256  Code  Lc  FluxWeakeningCtrlClass.o [3]
+Swc                     0x080047dd   0x258  Code  Lc  STO_SpeednPosFdbkClass.o [3]
+SysTick_Config          0x0800b547    0x2e  Code  Lc  main.o [1]
+SysTick_Configuration   0x0800b5c7    0x2e  Code  Gb  main.o [1]
+SysTick_Handler         0x0800bfa9     0x8  Code  Gb  stm32f10x_it.o [1]
+SystemCoreClock         0x20000044     0x4  Data  Gb  system_stm32f10x.o [1]
+SystemInit              0x0800b291    0x54  Code  Gb  system_stm32f10x.o [1]
+TB_DebounceDelay_IsElapsed
+                        0x08004451    0x10  Code  Gb  Timebase.o [1]
+TB_Scheduler            0x08004415    0x34  Code  Gb  Timebase.o [1]
+TB_Set_DebounceDelay_500us
+                        0x08004449     0x8  Code  Gb  Timebase.o [1]
+TIM1_UP_IRQHandler      0x0800b403    0x18  Code  Gb  stm32f10x_MC_it.o [1]
+TIM2_IRQHandler         0x0800b433    0x2e  Code  Gb  stm32f10x_MC_it.o [1]
+TIM4_IRQHandler         0x0800b461    0x2e  Code  Gb  stm32f10x_MC_it.o [1]
+TIM8_UP_IRQHandler      0x0800b41b    0x18  Code  Gb  stm32f10x_MC_it.o [1]
+TIM_BDTRConfig          0x08009bef    0x20  Code  Gb  stm32f10x_tim.o [1]
+TIM_BDTRStructInit      0x08009c49    0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearFlag           0x08009d51     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x08009d59     0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08009c67    0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x08009c83    0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_DeInit              0x08009771   0x1de  Code  Gb  stm32f10x_tim.o [1]
+TIM_GenerateEvent       0x08009cbd     0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetFlagStatus       0x08009d3d    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x08009ca5    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1Init             0x080099e1    0x94  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1PreloadConfig    0x08009cd1    0x10  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x08009a75    0x8a  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x08009ce1    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3Init             0x08009aff    0x88  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3PreloadConfig    0x08009cf3    0x10  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4Init             0x08009b87    0x68  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4PreloadConfig    0x08009d03    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OCStructInit        0x08009c27    0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_SelectInputTrigger  0x08009cc1    0x10  Code  Gb  stm32f10x_tim.o [1]
+TIM_SelectOutputTrigger
+                        0x08009d15    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_SelectSlaveMode     0x08009d27    0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCounter          0x08009d39     0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x0800994f    0x92  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseStructInit  0x08009c0f    0x18  Code  Gb  stm32f10x_tim.o [1]
+TSK_ChargeBootCapDelayHasElapsedM1
+                        0x080069b1    0x12  Code  Gb  MCTasks.o [1]
+TSK_ChargeBootCapDelayHasElapsedM2
+                        0x08006c7d    0x12  Code  Gb  MCTasks.o [1]
+TSK_DualDriveFIFOUpdate
+                        0x08007145    0x24  Code  Gb  MCTasks.o [1]
+TSK_HighFrequencyTask   0x08006d05   0x1c6  Code  Gb  MCTasks.o [1]
+TSK_MediumFrequencyTaskM1
+                        0x08006573   0x2b0  Code  Lc  MCTasks.o [1]
+TSK_MediumFrequencyTaskM2
+                        0x08006a31   0x238  Code  Lc  MCTasks.o [1]
+TSK_SafetyTask          0x0800706f    0x2e  Code  Gb  MCTasks.o [1]
+TSK_SafetyTask_PWMOFF   0x080070a5    0x8e  Code  Gb  MCTasks.o [1]
+TSK_SetChargeBootCapDelayM1
+                        0x080069a9     0x8  Code  Gb  MCTasks.o [1]
+TSK_SetChargeBootCapDelayM2
+                        0x08006c71     0x8  Code  Gb  MCTasks.o [1]
+TSK_SetStopPermanencyTimeM1
+                        0x080069c3     0x8  Code  Lc  MCTasks.o [1]
+TSK_SetStopPermanencyTimeM2
+                        0x08006c95     0x8  Code  Lc  MCTasks.o [1]
+TSK_StopPermanencyTimeHasElapsedM1
+                        0x080069cb    0x12  Code  Lc  MCTasks.o [1]
+TSK_StopPermanencyTimeHasElapsedM2
+                        0x08006ca5    0x12  Code  Lc  MCTasks.o [1]
+TSNS_Allocated          0x20001ec4     0x1  Data  Gb  TemperatureSensorClass.o [3]
+TSNS_CalcAvTemp         0x0800440d     0x4  Code  Gb  TemperatureSensorClass.o [3]
+TSNS_GetAvTemp_C        0x08004411     0x4  Code  Gb  TemperatureSensorClass.o [3]
+TSNS_Init               0x08004409     0x4  Code  Gb  TemperatureSensorClass.o [3]
+TSNS_NewObject          0x080043e5    0x20  Code  Gb  TemperatureSensorClass.o [3]
+TSNSpool                0x20001ec8    0x38  Data  Gb  TemperatureSensorClass.o [3]
+TextColor               0x2000214e     0x2  Data  Gb  stm3210e_eval_lcd.o [1]
+UDC_Channel             0x20002164     0x1  Data  Lc  MCTasks.o [1]
+UDC_ConvertedValue      0x2000214c     0x2  Data  Lc  MCTasks.o [1]
+UDC_State               0x20002165     0x1  Data  Lc  MCTasks.o [1]
+UI_Allocated            0x2000216c     0x1  Data  Gb  UserInterfaceClass.o [1]
+UI_DACExec              0x08002bfd     0xe  Code  Gb  UserInterfaceClass.o [1]
+UI_DACInit              0x08002bef     0xe  Code  Gb  UserInterfaceClass.o [1]
+UI_DACUpdate            0x080072f9    0x1c  Code  Gb  UITask.o [1]
+UI_ExecCmd              0x08002a7f    0x9c  Code  Gb  UserInterfaceClass.o [1]
+UI_ExecSpeedRamp        0x08002b1b    0x1e  Code  Gb  UserInterfaceClass.o [1]
+UI_GetDAC               0x08002c1d    0x18  Code  Gb  UserInterfaceClass.o [1]
+UI_GetReg               0x08002031   0xa4e  Code  Gb  UserInterfaceClass.o [1]
+UI_GetRevupData         0x08002b39    0x54  Code  Gb  UserInterfaceClass.o [1]
+UI_GetSelectedMC        0x08001bf1     0x6  Code  Gb  UserInterfaceClass.o [1]
+UI_IdleTimeHasElapsed   0x08007315    0x10  Code  Gb  UITask.o [1]
+UI_Init                 0x08001bc1    0x12  Code  Gb  UserInterfaceClass.o [1]
+UI_LCDExec              0x08002c43     0xe  Code  Gb  UserInterfaceClass.o [1]
+UI_LCDInit              0x08002c35     0xe  Code  Gb  UserInterfaceClass.o [1]
+UI_LCDRefresh           0x080072d1    0x28  Code  Gb  UITask.o [1]
+UI_LCDUpdateMeasured    0x08002c51     0xe  Code  Gb  UserInterfaceClass.o [1]
+UI_NewObject            0x08001b91    0x28  Code  Gb  UserInterfaceClass.o [1]
+UI_Scheduler            0x080072ab    0x26  Code  Gb  UITask.o [1]
+UI_SelectMC             0x08001bd3    0x1e  Code  Gb  UserInterfaceClass.o [1]
+UI_SerialCommunicationTimeOutHasElapsed
+                        0x0800732b    0x16  Code  Gb  UITask.o [1]
+UI_SerialCommunicationTimeOutStart
+                        0x08007349     0x8  Code  Gb  UITask.o [1]
+UI_SerialCommunicationTimeOutStop
+                        0x08007341     0x8  Code  Gb  UITask.o [1]
+UI_SetCurrentReferences
+                        0x08002bd3    0x1c  Code  Gb  UserInterfaceClass.o [1]
+UI_SetDAC               0x08002c0b    0x12  Code  Gb  UserInterfaceClass.o [1]
+UI_SetIdleTime          0x08007325     0x6  Code  Gb  UITask.o [1]
+UI_SetReg               0x08001bf7   0x43a  Code  Gb  UserInterfaceClass.o [1]
+UI_SetRevupData         0x08002b8d    0x46  Code  Gb  UserInterfaceClass.o [1]
+UI_TaskInit             0x080071c5    0xe6  Code  Gb  UITask.o [1]
+UIpool                  0x20001b58    0xd8  Data  Gb  UserInterfaceClass.o [1]
+USART3_IRQHandler       0x0800b48f    0x78  Code  Gb  stm32f10x_MC_it.o [1]
+USARTInitHW_str         0x0800c364    0x10  Data  Gb  UITask.o [1]
+USARTParams_str         0x0800ba68    0x24  Data  Gb  UITask.o [1]
+USART_COM_Allocated     0x2000216b     0x1  Data  Gb  USART_PhysicalLayerCommunication_Class.o [1]
+USART_COMpool           0x2000213c     0x4  Data  Gb  USART_PhysicalLayerCommunication_Class.o [1]
+USART_Cmd               0x08009fe5    0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x0800a05b    0x64  Code  Gb  stm32f10x_usart.o [1]
+USART_HWInit            0x08008f1d    0xac  Code  Gb  USART_PhysicalLayerCommunication_Class.o [1]
+USART_IRQ_Handler       0x08008fc9    0x90  Code  Gb  USART_PhysicalLayerCommunication_Class.o [1]
+USART_ITConfig          0x0800a001    0x52  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08009f25    0xba  Code  Gb  stm32f10x_usart.o [1]
+USART_NewObject         0x08008eb5    0x5e  Code  Gb  USART_PhysicalLayerCommunication_Class.o [1]
+USART_SendData          0x0800a053     0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_StartReceive      0x08009059    0x14  Code  Lc  USART_PhysicalLayerCommunication_Class.o [1]
+USART_StartTransmit     0x0800906d    0x14  Code  Lc  USART_PhysicalLayerCommunication_Class.o [1]
+UsageFault_Handler      0x0800bfa1     0x2  Code  Gb  stm32f10x_it.o [1]
+Usart_Timeout_none      0x08002c5e     0x2  Data  Gb  FrameCommunicationProtocolClass.o [1]
+Usart_Timeout_start     0x08003aca     0x2  Data  Gb  FrameCommunicationProtocolClass.o [1]
+Usart_Timeout_stop      0x08003d1e     0x2  Data  Gb  FrameCommunicationProtocolClass.o [1]
+VBS_Allocated           0x20001f00     0x1  Data  Gb  BusVoltageSensorClass.o [3]
+VBS_CalcAvVbus          0x080043d1     0x4  Code  Gb  BusVoltageSensorClass.o [3]
+VBS_GetAvBusVoltage_V   0x080043d9     0xc  Code  Gb  BusVoltageSensorClass.o [3]
+VBS_GetAvBusVoltage_d   0x080043d5     0x4  Code  Gb  BusVoltageSensorClass.o [3]
+VBS_Init                0x080043cd     0x4  Code  Gb  BusVoltageSensorClass.o [3]
+VBS_NewObject           0x080043a9    0x20  Code  Gb  BusVoltageSensorClass.o [3]
+VBSpool                 0x20001f04    0x38  Data  Gb  BusVoltageSensorClass.o [3]
+VSPD_GetLastRampFinalSpeed
+                        0x080075b1     0x8  Code  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSPD_SetMecAcceleration
+                        0x08007535    0x7c  Code  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSPD_SetStartTransition
+                        0x080075b9    0x22  Code  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_CalcAvrgMecSpeed01Hz
+                        0x0800749d    0x7e  Code  Lc  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_CalcElAngle         0x08007405    0x96  Code  Lc  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_Clear               0x080073d9    0x2c  Code  Lc  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_Init                0x080073d5     0x4  Code  Lc  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_NewObject           0x08007389    0x46  Code  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_SPD_Allocated       0x20001f70     0x1  Data  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_SPDpool             0x20001f74    0x30  Data  Gb  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VSS_SetMecAngle         0x0800751d    0x18  Code  Lc  VirtualSpeedSensor_SpeednPosFdbkClass.o [3]
+VTS_Clear               0x08008811     0x2  Code  Lc  Virtual_TemperatureSensorClass.o [3]
+VTS_GetAvTemp_C         0x08008819     0xa  Code  Lc  Virtual_TemperatureSensorClass.o [3]
+VTS_Init                0x080087fd    0x12  Code  Lc  Virtual_TemperatureSensorClass.o [3]
+VTS_NewObject           0x080087bd    0x3c  Code  Gb  Virtual_TemperatureSensorClass.o [3]
+VTS_NoErrors            0x08008815     0x4  Code  Lc  Virtual_TemperatureSensorClass.o [3]
+VTS_TSNS_Allocated      0x20002060     0x1  Data  Gb  Virtual_TemperatureSensorClass.o [3]
+VTS_TSNSpool            0x20002064     0x8  Data  Gb  Virtual_TemperatureSensorClass.o [3]
+VVBS_Clear              0x08008709     0x2  Code  Lc  Virtual_BusVoltageSensorClass.o [3]
+VVBS_Init               0x080086ed    0x1a  Code  Lc  Virtual_BusVoltageSensorClass.o [3]
+VVBS_NewObject          0x080086b1    0x36  Code  Gb  Virtual_BusVoltageSensorClass.o [3]
+VVBS_NoErrors           0x0800870d     0x4  Code  Lc  Virtual_BusVoltageSensorClass.o [3]
+VVBS_VBS_Allocated      0x2000206c     0x1  Data  Gb  Virtual_BusVoltageSensorClass.o [3]
+VVBS_VBSpool            0x20002070     0x8  Data  Gb  Virtual_BusVoltageSensorClass.o [3]
+VirtualBusParamsM1      0x0800c498     0x4  Data  Gb  MCTasks.o [1]
+VirtualBusParamsM2      0x0800c47c     0x4  Data  Gb  MCTasks.o [1]
+VirtualBusVoltageSensorParamsM1
+                        0x0800c494     0x4  Data  Gb  MCTasks.o [1]
+VirtualBusVoltageSensorParamsM2
+                        0x0800c478     0x4  Data  Gb  MCTasks.o [1]
+VirtualSpeedSensorParamsM1
+                        0x0800c490     0x4  Data  Gb  MCTasks.o [1]
+VirtualSpeedSensorParamsM2
+                        0x0800c474     0x4  Data  Gb  MCTasks.o [1]
+VirtualTParamsM1        0x0800c4a0     0x4  Data  Gb  MCTasks.o [1]
+VirtualTParamsM2        0x0800c484     0x4  Data  Gb  MCTasks.o [1]
+VirtualTempSensorParamsM1
+                        0x0800c49c     0x4  Data  Gb  MCTasks.o [1]
+VirtualTempSensorParamsM2
+                        0x0800c480     0x4  Data  Gb  MCTasks.o [1]
+__aeabi_memclr          0x08007381          Code  Gb  ABImemclr.o [6]
+__cmain                 0x0800baed          Code  Gb  cmain.o [6]
+__exit                  0x0800bb1d    0x14  Code  Gb  exit.o [7]
+__iar_Memset_word       0x08009331          Code  Gb  ABImemset.o [6]
+__iar_data_init3        0x0800ba41    0x28  Code  Gb  data_init.o [6]
+__iar_packbits_init_single3
+                        0x0800b9e1    0x38  Code  Gb  packbits_init_single.o [6]
+__iar_program_start     0x0800c455          Code  Gb  cstartup_M.o [6]
+__iar_unaligned___aeabi_memcpy4
+                        0x08005729          Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_unaligned___aeabi_memcpy8
+                        0x08005729          Code  Gb  ABImemcpy_unaligned.o [6]
+__iar_zero_init3        0x0800b929    0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x0800bb07     0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000          Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main              0x0800baf9          Code  Gb  cmain.o [6]
+_exit                   0x0800bb11          Code  Gb  cexit.o [6]
+_main                   0x0800bb03          Code  Gb  cmain.o [6]
+bCOMTimeoutCounter      0x20002158     0x2  Data  Lc  UITask.o [1]
+bKey                    0x2000215f     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bKey_Flag               0x20002161     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bMenu_index             0x2000215e     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bPresent_Visualization  0x2000215d     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bPrevious_Visualization
+                        0x2000215c     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bPrevious_key           0x20002160     0x1  Data  Lc  LCDVintage_UserInterfaceClass.o [1]
+bUDTBTaskCounter        0x20002152     0x2  Data  Lc  Timebase.o [1]
+bUITaskCounter          0x20002156     0x2  Data  Lc  UITask.o [1]
+delay                   0x080037dd    0x22  Code  Lc  stm3210e_eval_lcd.o [1]
+exit                    0x0800bb0b     0x4  Code  Gb  exit.o [4]
+hBootCapDelayCounterM1  0x20002142     0x2  Data  Lc  MCTasks.o [1]
+hBootCapDelayCounterM2  0x20002148     0x2  Data  Lc  MCTasks.o [1]
+hKey_debounce_500us     0x20002154     0x2  Data  Lc  Timebase.o [1]
+hMFTaskCounterM1        0x20002140     0x2  Data  Lc  MCTasks.o [1]
+hMFTaskCounterM2        0x20002146     0x2  Data  Lc  MCTasks.o [1]
+hSin_Cos_Table          0x08005cfc   0x200  Data  Gb  MC_Math.o [3]
+hStopPermanencyCounterM1
+                        0x20002144     0x2  Data  Lc  MCTasks.o [1]
+hStopPermanencyCounterM2
+                        0x2000214a     0x2  Data  Lc  MCTasks.o [1]
+main                    0x0800b575    0x52  Code  Gb  main.o [1]
+oBusSensor              0x200020c0     0x8  Data  Gb  MCTasks.o [1]
+oCLM                    0x200020e8     0x8  Data  Gb  MCTasks.o [1]
+oCurrSensor             0x200020d0     0x8  Data  Gb  MCTasks.o [1]
+oDAC                    0x20002138     0x4  Data  Gb  UITask.o [1]
+oFCP                    0x20002130     0x4  Data  Gb  UITask.o [1]
+oFW                     0x200020f0     0x8  Data  Gb  MCTasks.o [1]
+oLCD                    0x20002128     0x4  Data  Gb  UITask.o [1]
+oMCI                    0x20002078     0x8  Data  Gb  main.o [1]
+oMCInterface            0x20002088     0x8  Data  Gb  MCTasks.o [1]
+oMCP                    0x20002134     0x4  Data  Gb  UITask.o [1]
+oMCT                    0x20002080     0x8  Data  Gb  main.o [1]
+oMCTuning               0x20002090     0x8  Data  Gb  MCTasks.o [1]
+oMPM                    0x200020e0     0x8  Data  Gb  MCTasks.o [1]
+oOL                     0x20002100     0x8  Data  Gb  MCTasks.o [1]
+oPIDId                  0x200020b8     0x8  Data  Gb  MCTasks.o [1]
+oPIDIq                  0x200020b0     0x8  Data  Gb  MCTasks.o [1]
+oPIDSpeed               0x200020a8     0x8  Data  Gb  MCTasks.o [1]
+oPIFW                   0x200020f8     0x8  Data  Gb  MCTasks.o [1]
+oRUC_M1                 0x20002114     0x4  Data  Gb  MCTasks.o [1]
+oRUC_M2                 0x2000211c     0x4  Data  Gb  MCTasks.o [1]
+oSTC                    0x200020a0     0x8  Data  Gb  MCTasks.o [1]
+oSTM                    0x20002098     0x8  Data  Gb  MCTasks.o [1]
+oSpeedSensor            0x200020d8     0x8  Data  Gb  MCTasks.o [1]
+oTemperatureSensor      0x200020c8     0x8  Data  Gb  MCTasks.o [1]
+oUI_IRQTable            0x20002124     0x4  Data  Gb  UIIRQHandlerClass.o [1]
+oUSART                  0x2000212c     0x4  Data  Gb  UITask.o [1]
+oVSS_M1                 0x20002110     0x4  Data  Gb  MCTasks.o [1]
+oVSS_M2                 0x20002118     0x4  Data  Gb  MCTasks.o [1]
+pSgma                   0x20000048    0x18  Data  Lc  FluxWeakeningCtrlClass.o [3]
+pSgma                   0x20000060    0x18  Data  Lc  STO_SpeednPosFdbkClass.o [3]
+s_fwVer                 0x0800baac    0x20  Data  Gb  main.o [1]
+wConfig                 0x20000000     0x8  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\fuqiang\SkyDrive\Code\STM32F10x_Workspace_Foc4.0\Project\Debug\Obj
+[2] = command line
+[3] = MC_Library_STM32F10x_dual_drive.a
+[4] = dl7M_tlf.a
+[5] = m7M_tl.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  42 548 bytes of readonly  code memory
+   8 110 bytes of readonly  data memory
+   8 553 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
